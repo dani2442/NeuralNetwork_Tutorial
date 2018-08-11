@@ -10,7 +10,7 @@ public:
 
 	double initNeuron() { return ((double)rand()) / RAND_MAX; }
 
-protected:
+public:
 
 	std::vector<double> listOfWeightIn;
 	std::vector<double>listOfWeightOut;

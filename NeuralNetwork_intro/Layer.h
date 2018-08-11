@@ -11,8 +11,8 @@ public:
 
 	void printLayer() const {}
 
-protected:
+public:
 
 	std::vector<Neuron> listOfNeurons;
-	size_t numbreOfNeuronInLayer;
+	size_t numberOfNeuronInLayer;
 };
