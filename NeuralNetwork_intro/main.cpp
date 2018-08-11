@@ -7,9 +7,11 @@ int main() {
 	inputL.printLayer(inputL);
 
 	OutputLayer outputL;
-	outputL.numberOfNeuronInLayer = 5;
+	outputL.numberOfNeuronInLayer = 2;
 	outputL = outputL.initLayer(outputL);
 	outputL.printLayer(outputL);
+
+
 
 	getchar();
 }

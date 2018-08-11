@@ -115,6 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="HiddenLayer.h" />
     <ClInclude Include="OutputLayer.h" />
     <ClInclude Include="InputLayer.h" />
     <ClInclude Include="Layer.h" />
